@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://pipappr.co.id/"
 languageCode = "en-us"
 title = ""
 disableKinds = "RSS"
