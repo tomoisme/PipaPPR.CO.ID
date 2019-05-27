@@ -3,85 +3,16 @@
     <div class="container">
         <div class="content row">
             <h1 class="heading-section center">Harga Sambungan/Fitting Pipa PPR Asialing</h1>
-            {{ partial "kontak" . }}
+            <h2 class="text-center">Update Harga Terbaru 2019</h2>
+            <div class="text-center">
+                {{ partial "kontak-button" . }}
+            </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="text-center">
                     <img src="{{ .Site.BaseURL }}/image/fitting-ppr/elbow90.png" alt="Elbow 90&deg; PPR" width="100" />
                 </div>
                 <br>
-                <table class="table table-bordered table-hover center">
-                    <thead>
-                        <tr>
-                            <th colspan="3">Elbow 90° (Knee 90°)</th>
-                        </tr>
-                        <tr>
-                            <th colspan="2">Ukuran</th>
-                            <th rowspan="2">Harga</th>
-                        </tr>
-                        <tr>
-                            <th>(mm)</th>
-                            <th>(inch)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td>20</td>
-                            <td>1/2"</td>
-                            <td> Rp8.300 </td>
-                        </tr>
-                        <tr>
-                            <td>25</td>
-                            <td>3/4"</td>
-                            <td> Rp9.500 </td>
-                        </tr>
-                        <tr>
-                            <td>32</td>
-                            <td>1"</td>
-                            <td> Rp13.200 </td>
-                        </tr>
-                        <tr>
-                            <td>40</td>
-                            <td>1 1/4"</td>
-                            <td> Rp24.400 </td>
-                        </tr>
-                        <tr>
-                            <td>50</td>
-                            <td>1 1/2"</td>
-                            <td> Rp45.200 </td>
-                        </tr>
-                        <tr>
-                            <td>63</td>
-                            <td>2"</td>
-                            <td> Rp70.200 </td>
-                        </tr>
-                        <tr>
-                            <td>75</td>
-                            <td>2 1/2"</td>
-                            <td> Rp181.400 </td>
-                        </tr>
-                        <tr>
-                            <td>90</td>
-                            <td>3"</td>
-                            <td> Rp280.200 </td>
-                        </tr>
-                        <tr>
-                            <td>110</td>
-                            <td>4"</td>
-                            <td> Rp350.900 </td>
-                        </tr>
-                        <tr>
-                            <td>125</td>
-                            <td>5"</td>
-                            <td> Rp1.683.800 </td>
-                        </tr>
-                        <tr>
-                            <td>160</td>
-                            <td>6"</td>
-                            <td> Rp1.989.900 </td>
-                        </tr>
-                    </tbody>
-                </table>
+                {{ partial "harga-fitting-asialing/elbow-90" . }}
 
                 <div class="text-center">
                     <img src="{{ .Site.BaseURL }}/image/fitting-ppr/elbow45.png" alt="Elbow 45&deg; PPR" width="100" />
