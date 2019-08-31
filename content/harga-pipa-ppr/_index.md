@@ -19,6 +19,14 @@ description: "Info harga pipa PPR paling update dan akurat dari distributor pipa
 
 ----
 
+#### Harga pipa PPR Akan SD
+
+{{< partial "kontak-button" >}}
+
+{{< partial "harga-pipa-ppr/akan-sd" >}}
+
+----
+
 #### Harga pipa PPR Asialing
 
 {{< partial "kontak-button" >}}
