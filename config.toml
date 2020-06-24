@@ -1,5 +1,5 @@
 baseURL = "https://pipappr.co.id/"
 languageCode = "en-us"
 title = ""
-disableKinds = "RSS"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 assetDir = "static"
